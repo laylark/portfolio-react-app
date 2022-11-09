@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+The purpose of this project is to improve understanding of React and Tailwind CSS as well as update my portfolio. This project was completed and added upon after following a [YouTube Tutorial](https://www.youtube.com/watch?v=2kg0z1qNrkw).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
