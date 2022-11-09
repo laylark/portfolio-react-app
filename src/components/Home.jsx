@@ -19,7 +19,7 @@ const Home = () => {
           focus is building responsive full-stack web applications.
         </p>
         <div>
-          <Link to="projects" smooth={true} duration={500} offset={-50}>
+          <Link to="projects" smooth={true} duration={500} offset={-75}>
             <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#1F6492] hover:border-[#1F6492]">
               View Projects
               <span className="group-hover:rotate-90 durations:300">
