@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo-white.svg";
+import Logo from "../../assets/logo-white.svg";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -28,17 +28,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500} offset={20}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
-            Work
+          <Link to="projects" smooth={true} duration={500} offset={-50}>
+            Projects
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500} offset={-40}>
             Contact
           </Link>
         </li>
@@ -68,13 +68,25 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -87,16 +99,16 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[140px] h-[45px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
               Linkedin
-              <FaLinkedin size={30} />
+              <FaLinkedin size={25} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[140px] h-[45px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
@@ -105,7 +117,7 @@ const Navbar = () => {
               <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#e98039]">
+          <li className="w-[140px] h-[45px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-[#e98039]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
@@ -114,7 +126,7 @@ const Navbar = () => {
               <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="w-[140px] h-[45px] flex justify-between items-center ml-[-85px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
