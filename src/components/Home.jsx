@@ -18,7 +18,7 @@ const Home = () => {
           I am a Software Developer
         </h2>
         <p className="text-[#45537a] sm:font-black py-4 wax-w-[700px]">
-          <span className="sm:bg-[rgba(83,87,115,0.7)] sm:text-white xl:bg-inherit xl:text-inherit">
+          <span className="sm:bg-[rgba(83,87,115,0.7)] sm:text-white">
             I'm continuously learning to build cool things for the web. My
             current focus is building responsive full-stack web applications.
           </span>
