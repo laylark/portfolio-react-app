@@ -18,18 +18,3 @@
   height: 80px;
   transition: background-color 500ms, height 500ms, color 500ms;
 }
-
-.logo {
-  content: url("../../assets/logo-gray.svg");
-}
-.logo-white {
-  content: url("../../assets/logo-white.svg");
-}
-img:not([src]) .logo {
-  background-image: url("../../assets/logo-white.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  display: inline-block;
-  height: 160px;
-  width: 160px;
-}
