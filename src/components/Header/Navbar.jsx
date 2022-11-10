@@ -2,17 +2,35 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../../assets/logo-white.svg";
+import Logo from "../../assets/logo-gray.svg";
+import LogoWhite from "../../assets/logo-white.svg";
 import { Link } from "react-scroll";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  // Change nav color when scrolling
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 80) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className={color ? "header header-bg" : "header"}>
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "150px" }}></img>
+        <img
+          src={color ? LogoWhite : Logo}
+          alt="Logo"
+          style={{ width: "160px" }}
+        ></img>
       </div>
 
       {/* menu */}
@@ -38,7 +56,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} offset={-40}>
+          <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -54,7 +72,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#45537a] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
