@@ -14,14 +14,17 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi, I'm Layla, nice to meet you. Please take a look around.</p>
+            <p>Hi, I'm Layla. I build cool things for the web and beyond.</p>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              aperiam officiis quasi sequi odit laudantium corrupti fugit ipsa,
-              odio natus quos asperiores earum dicta autem, neque, error
-              molestiae quis itaque.
+              My passion is learning. My favorite part of being a developer is
+              the rapid pace of technological change<span>&#8212;</span>meaning
+              there are always new learning opportunities. I am a mom, software
+              developer, registered dietitian nutritionist, adjunct instructor,
+              and avid community volunteer. I have the most fun building
+              data-driven projects using databases, Python, Javascript, and
+              APIs.
             </p>
           </div>
         </div>
