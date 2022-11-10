@@ -17,13 +17,15 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#45537a]">
           I am a Software Developer
         </h2>
-        <p className="text-[#45537a] py-4 wax-w-[700px]">
-          I'm continuously learning to build cool things for the web. My current
-          focus is building responsive full-stack web applications.
+        <p className="text-[#45537a] sm:font-black py-4 wax-w-[700px]">
+          <span className="sm:bg-[rgba(83,87,115,0.7)] sm:text-white xl:bg-inherit xl:text-inherit">
+            I'm continuously learning to build cool things for the web. My
+            current focus is building responsive full-stack web applications.
+          </span>
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500} offset={-75}>
-            <button className="group text-white border-[#454545] bg-[#454545] border-2 px-6 py-3 my-2 flex items-center hover:bg-opacity-0 hover:border-[#454545] hover:text-[#454545]">
+            <button className="group text-white border-[#454545] bg-[#454545] border-2 px-6 py-3 my-2 flex items-center hover:bg-opacity-0 hover:border-[#7a49a5] hover:text-[#7a49a5]">
               View Projects
               <span className="group-hover:rotate-90 durations:300">
                 <HiArrowNarrowRight className="ml-3" />
