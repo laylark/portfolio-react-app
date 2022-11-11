@@ -41,22 +41,22 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500} offset={-80}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} offset={-50}>
+          <Link to="skills" smooth={true} duration={500} offset={-80}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" smooth={true} duration={500} offset={-70}>
+          <Link to="projects" smooth={true} duration={500} offset={-80}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} offset={-50}>
+          <Link to="contact" smooth={true} duration={500} offset={-80}>
             Contact
           </Link>
         </li>
@@ -81,7 +81,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            offset={-80}
+          >
             About
           </Link>
         </li>
@@ -91,7 +97,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            offset={-50}
+            offset={-80}
           >
             Skills
           </Link>
@@ -102,13 +108,19 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={500}
-            offset={-50}
+            offset={-80}
           >
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            offset={-80}
+          >
             Contact
           </Link>
         </li>
