@@ -24,13 +24,17 @@ const Home = () => {
           </span>
         </p>
         <div>
-          <Link to="projects" smooth={true} duration={500} offset={-75}>
-            <button className="group text-white border-[#454545] bg-[#454545] border-2 px-6 py-3 my-2 flex items-center hover:bg-opacity-0 hover:border-[#7a49a5] hover:text-[#7a49a5]">
-              View Projects
-              <span className="group-hover:rotate-90 durations:300">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
-            </button>
+          <Link
+            to="projects"
+            className="group/foo inline-block text-white border-[#454545] bg-[#454545] border-2 px-6 py-3 my-2 hover:bg-opacity-0 hover:border-[#7a49a5] hover:text-[#7a49a5]"
+            smooth={true}
+            duration={500}
+            offset={-75}
+          >
+            View Projects
+            <span className="group-hover/foo:rotate-90 durations:300 inline-block">
+              <HiArrowNarrowRight className="ml-3 inline" />
+            </span>
           </Link>
         </div>
       </div>
