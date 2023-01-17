@@ -10,7 +10,7 @@ const Projects = () => {
     <div name="projects" className="w-full text-gray-800 bg-[#f2f4fa]">
       <div className="max-w-[1000px] mx-auto p-16 w-full min-h-screen">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#7a49a5]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#FF7200]">
             Projects
           </p>
           <p className="py-6">// Check out some of my recent projects</p>
@@ -76,7 +76,7 @@ const Projects = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Flask Application
+                Django Application
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -101,7 +101,7 @@ const Projects = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Flask Application
+                Django Application
               </span>
               <div className="pt-8 text-center">
                 <a href="/">

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-hero bg-no-repeat bg-cover md:bg-fixed"
+      className="w-full h-screen bg-hero bg-no-repeat bg-cover bg-center md:bg-fixed"
     >
       {/* Container */}
       <div className="max-w[1000px] px-[4rem] lg:px-[9rem] mx-auto flex flex-col justify-center h-full">
@@ -26,7 +26,7 @@ const Home = () => {
         <div>
           <Link
             to="projects"
-            className="group/foo inline-block text-white border-[#454545] bg-[#454545] border-2 px-6 py-3 my-2 hover:bg-opacity-0 hover:border-[#7a49a5] hover:text-[#7a49a5]"
+            className="group/foo inline-block text-white border-[#454545] bg-[#454545] border-2 px-6 py-3 my-2 hover:bg-opacity-0 hover:border-[#FF7200] hover:text-[#FF7200]"
             smooth={true}
             duration={500}
             offset={-75}
