@@ -48,7 +48,7 @@ const Contact = () => {
       </form>
       <div className="w-full flex justify-center pt-10">
         <ul className="flex">
-            <li className="w-[140px] h-[45px] flex mx-2 items-center hover:bg-[#FF7200]/80 duration-300 bg-blue-600 text-gray-300 hover:text-[#333333]">
+            <li className="w-[140px] h-[45px] flex mx-2 items-center hover:bg-[#09732B]/80 duration-300 bg-blue-600 text-gray-300">
               <a
                 className="flex justify-between items-center w-full"
                 href="https://www.linkedin.com/in/layla-krauss/" target="_blank" rel="noopener noreferrer"
@@ -57,7 +57,7 @@ const Contact = () => {
                 <FaLinkedin size={25} />
               </a>
             </li>
-            <li className="w-[140px] h-[45px] flex mx-2 items-center hover:bg-[#FF7200]/80 duration-300 bg-[#333333] text-gray-300 hover:text-[#333333]">
+            <li className="w-[140px] h-[45px] flex mx-2 items-center hover:bg-[#09732B]/80 duration-300 bg-[#333333] text-gray-300">
               <a
                 className="flex justify-between items-center w-full"
                 href="https://github.com/laylark" target="_blank" rel="noopener noreferrer"

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaTimes} from "react-icons/fa";
 import Logo from "../../assets/logo-gray.svg";
 import LogoWhite from "../../assets/logo-white.svg";
 import { Link } from "react-scroll";
@@ -72,7 +70,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#45537a] text-white flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#09732B]/95 text-white flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
