@@ -29,14 +29,9 @@ const Projects = () => {
                 Flask Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://www.youtube.com/watch?v=-cHAlcg6STI" target="_blank" rel="noopener noreferrer">
+                <a href="https://nicu.mothercodesbest.dev/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
                   </button>
                 </a>
               </div>
@@ -54,12 +49,12 @@ const Projects = () => {
                 Flask Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://tidbits.mothercodesbest.dev/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/laylark/openai-quickstart-python.git" target="_blank" rel="nonopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -84,7 +79,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/laylark/commerce.git" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -109,7 +104,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/laylark/wiki.git" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -134,7 +129,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/laylark/cs50w-search.git" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
