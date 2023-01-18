@@ -29,7 +29,7 @@ const Projects = () => {
                 Flask Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://www.youtube.com/watch?v=-cHAlcg6STI" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -79,7 +79,7 @@ const Projects = () => {
                 Django Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://www.youtube.com/watch?v=I8A2NRSScK0&feature=youtu.be" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -104,7 +104,7 @@ const Projects = () => {
                 Django Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://youtu.be/lETKQcAOUD8" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -129,7 +129,7 @@ const Projects = () => {
                 Flask Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://youtu.be/RShEvGDHHF8" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
