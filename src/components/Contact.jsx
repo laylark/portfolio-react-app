@@ -1,10 +1,11 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen bg-[#f2f4fa] flex justify-center items-center p-16"
+      className="w-full min-h-screen bg-[#f2f4fa] flex justify-center items-center flex-wrap p-16"
     >
       <form
         method="POST"
@@ -45,6 +46,28 @@ const Contact = () => {
           Let's Collaborate
         </button>
       </form>
+      <div className="w-full flex justify-center pt-10">
+        <ul className="flex">
+            <li className="w-[140px] h-[45px] flex mx-2 items-center hover:bg-[#FF7200]/80 duration-300 bg-blue-600 text-gray-300 hover:text-[#333333]">
+              <a
+                className="flex justify-between items-center w-full"
+                href="https://www.linkedin.com/in/layla-krauss/" target="_blank" rel="noopener noreferrer"
+              >
+                Linkedin
+                <FaLinkedin size={25} />
+              </a>
+            </li>
+            <li className="w-[140px] h-[45px] flex mx-2 items-center hover:bg-[#FF7200]/80 duration-300 bg-[#333333] text-gray-300 hover:text-[#333333]">
+              <a
+                className="flex justify-between items-center w-full"
+                href="https://github.com/laylark" target="_blank" rel="noopener noreferrer"
+              >
+                GitHub
+                <FaGithub size={30} />
+              </a>
+            </li>
+          </ul>
+      </div>
     </div>
   );
 };

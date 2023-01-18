@@ -11,6 +11,7 @@ import Docker from "../assets/docker.png";
 import SQLite from "../assets/sqlite.png";
 import Shell from "../assets/shell.png";
 import VSCode from "../assets/vscode.png";
+import Django from "../assets/django.png"
 
 const Skills = () => {
   return (
@@ -47,18 +48,18 @@ const Skills = () => {
             <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
               <img
                 className="w-20 my-4 mx-auto"
-                src={ReactImg}
-                alt="React icon"
+                src={Django}
+                alt="Django icon"
               />
-              <p className="my-4">REACT</p>
+              <p className="my-4">DJANGO</p>
             </div>
             <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
               <img
                 className="w-20 my-4 mx-auto"
-                src={Tailwind}
-                alt="Tailwind icon"
+                src={BootstrapImg}
+                alt="Boostrap icon"
               />
-              <p className="my-4">TAILWIND</p>
+              <p className="my-4">BOOTSTRAP</p>
             </div>
             <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
               <img
@@ -87,10 +88,10 @@ const Skills = () => {
             <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
               <img
                 className="w-20 my-4 mx-auto"
-                src={BootstrapImg}
-                alt="Bootstrap icon"
+                src={Tailwind}
+                alt="Tailwind icon"
               />
-              <p className="my-4">BOOTSTRAP</p>
+              <p className="my-4">TAILWIND</p>
             </div>
             <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
               <img

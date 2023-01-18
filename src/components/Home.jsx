@@ -9,7 +9,7 @@ const Home = () => {
       className="w-full h-screen bg-hero bg-no-repeat bg-cover bg-center md:bg-fixed"
     >
       {/* Container */}
-      <div className="max-w[1000px] px-[4rem] lg:px-[9rem] mx-auto flex flex-col justify-center h-full">
+      <div className="max-w[1000px] px-[4rem] mx-auto flex flex-col justify-center h-full">
         <p className="text-[#454545] font-bold">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#546696]">
           Layla Krauss
@@ -17,8 +17,8 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#45537a]">
           I am a Software Developer
         </h2>
-        <p className="text-[#45537a] sm:font-black py-4 wax-w-[700px]">
-          <span className="sm:bg-[rgba(83,87,115,0.7)] sm:text-white">
+        <p className="text-[#45537a] sm:font-black py-4 wax-w-[700px] md:pr-[25rem] sm:pr-[10rem]">
+          <span className="bg-[rgba(83,87,115,0.7)] text-white">
             I'm continuously learning to build cool things for the web. My
             current focus is building responsive full-stack web applications.
           </span>

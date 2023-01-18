@@ -4,6 +4,7 @@ import DoggyAuctions from "../assets/doggy-auctions.jpg"
 import Tidbits from "../assets/tidbits.jpg"
 import Wiki from "../assets/wiki.jpg"
 import Search from "../assets/search.jpg"
+import FCC from "../assets/fcc.jpeg"
 
 const Projects = () => {
   return (
@@ -24,7 +25,7 @@ const Projects = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Flask Application
               </span>
@@ -44,7 +45,7 @@ const Projects = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Flask Application
               </span>
@@ -69,7 +70,7 @@ const Projects = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Django Application
               </span>
@@ -94,7 +95,7 @@ const Projects = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Django Application
               </span>
@@ -119,9 +120,9 @@ const Projects = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Flask Application
+                Google Clone
               </span>
               <div className="pt-8 text-center">
                 <a href="https://youtu.be/RShEvGDHHF8" target="_blank" rel="noopener noreferrer">
@@ -137,6 +138,27 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+                {/* Grid item */}
+          <div
+            style={{ backgroundImage: `url(${FCC})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 text-center">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                FreeCodeCamp Projects
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://www.freecodecamp.org/certification/laylark/responsive-web-design" target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
