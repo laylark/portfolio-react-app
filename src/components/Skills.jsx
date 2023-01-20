@@ -28,15 +28,15 @@ const Skills = () => {
           </p>
 
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img className="w-20 my-4 mx-auto" src={HTML} alt="HTML icon" />
               <p className="my-4">HTML</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img className="w-20 my-4 mx-auto" src={CSS} alt="CSS icon" />
               <p className="my-4">CSS</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Javascript}
@@ -45,7 +45,7 @@ const Skills = () => {
               <p className="my-4">JAVASCRIPT</p>
             </div>
 
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Django}
@@ -53,7 +53,7 @@ const Skills = () => {
               />
               <p className="my-4">DJANGO</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={BootstrapImg}
@@ -61,7 +61,7 @@ const Skills = () => {
               />
               <p className="my-4">BOOTSTRAP</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Github}
@@ -69,7 +69,7 @@ const Skills = () => {
               />
               <p className="my-4">GITHUB</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Python}
@@ -77,7 +77,7 @@ const Skills = () => {
               />
               <p className="my-4">PYTHON</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={SQLite}
@@ -85,7 +85,7 @@ const Skills = () => {
               />
               <p className="my-4">SQLite</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Tailwind}
@@ -93,7 +93,7 @@ const Skills = () => {
               />
               <p className="my-4">TAILWIND</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={VSCode}
@@ -101,7 +101,7 @@ const Skills = () => {
               />
               <p className="my-4">VS CODE</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Shell}
@@ -109,7 +109,7 @@ const Skills = () => {
               />
               <p className="my-4">SHELL</p>
             </div>
-            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16] hover:scale-110 duration:500">
+            <div className="bg-[#f6f7fa] shadow-md shadow-[#040c16]">
               <img
                 className="w-20 my-4 mx-auto"
                 src={Docker}
