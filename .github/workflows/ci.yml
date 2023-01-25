@@ -11,7 +11,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: laylark/layla-krauss
+          images: laylark/layla-krauss-portfolio
           tags: |
             type=ref,prefix=dev-,event=branch
             type=semver,pattern={{version}}
